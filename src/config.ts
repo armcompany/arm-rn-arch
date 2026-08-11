@@ -6,7 +6,7 @@ export const CONFIG_FILE = 'rn-arch.config.json';
 
 export function defaultConfig(workflow: Workflow = 'expo'): ArchitectureConfig {
   return {
-    $schema: 'https://raw.githubusercontent.com/armcompany/armrnarch/main/schema/rn-arch.schema.json',
+    $schema: 'https://raw.githubusercontent.com/armcompany/arm-rn-arch/main/schema/rn-arch.schema.json',
     version: 1,
     workflow,
     topology: 'modular-monolith',

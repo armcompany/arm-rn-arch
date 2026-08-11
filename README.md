@@ -16,7 +16,7 @@ npx @armcompany/rn-arch check
 Install the skill:
 
 ```bash
-npx skills add armcompany/armrnarch --skill react-native-architecture
+npx skills add armcompany/arm-rn-arch --skill react-native-architecture
 ```
 
 The skill discovers repository evidence, interviews only unresolved decisions, writes the contract, previews a deterministic plan, applies it through the CLI and validates the result.

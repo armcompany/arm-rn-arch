@@ -5,11 +5,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/armcompany/armrnarch.git"
+    "url": "git+https://github.com/armcompany/arm-rn-arch.git"
   },
-  "homepage": "https://github.com/armcompany/armrnarch#readme",
+  "homepage": "https://github.com/armcompany/arm-rn-arch#readme",
   "bugs": {
-    "url": "https://github.com/armcompany/armrnarch/issues"
+    "url": "https://github.com/armcompany/arm-rn-arch/issues"
   },
   "publishConfig": {
     "access": "public"

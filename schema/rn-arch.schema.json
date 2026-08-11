@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://raw.githubusercontent.com/armcompany/armrnarch/main/schema/rn-arch.schema.json",
+  "$id": "https://raw.githubusercontent.com/armcompany/arm-rn-arch/main/schema/rn-arch.schema.json",
   "title": "rn-arch architecture contract",
   "type": "object",
   "required": ["version", "workflow", "topology", "presentation", "navigation", "modules", "core", "capabilities", "integration", "state", "persistence", "offline", "design", "release"],
