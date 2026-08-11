@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/armcompany/armrnarch/main/schema/rn-arch.schema.json",
+  "title": "rn-arch architecture contract",
+  "type": "object",
+  "required": ["version", "workflow", "topology", "presentation", "navigation", "modules", "core", "capabilities", "integration", "state", "persistence", "offline", "design", "release"],
+  "properties": {
+    "version": { "const": 1 },
+    "workflow": { "enum": ["expo", "bare", "brownfield"] },
+    "topology": { "enum": ["modular-monolith", "multi-package-app", "mobile-platform", "mobile-microfrontends"] },
+    "presentation": { "enum": ["hook-based-mvvm", "mvi", "clean", "viper"] },
+    "navigation": { "enum": ["expo-router", "react-navigation"] },
+    "modules": { "type": "array", "items": { "type": "string", "pattern": "^[a-z][a-z0-9-]*$" }, "uniqueItems": true },
+    "core": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+    "capabilities": { "type": "array", "items": { "enum": ["auth", "server-state", "client-state", "forms", "offline", "design-system", "animation", "maps", "observability", "release"] }, "uniqueItems": true },
+    "integration": { "type": "object" },
+    "state": { "type": "object" },
+    "persistence": { "type": "object" },
+    "offline": { "type": "object" },
+    "design": { "type": "object" },
+    "release": { "type": "object" }
+  },
+  "additionalProperties": false
+}
