@@ -1,6 +1,6 @@
 {
   "name": "@armcompany/rn-arch",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "An autonomous architecture harness and CLI for production React Native projects.",
   "license": "MIT",
   "repository": {

@@ -24,9 +24,13 @@ Operate as `architectural judgment + persistent contract + deterministic sensors
    - topology or ownership: [topologies.md](references/topologies.md)
    - UI/logic pattern: [presentation.md](references/presentation.md)
    - API, state, storage, offline: [data-state-offline.md](references/data-state-offline.md)
+   - concrete hooks, queries, mutations, and boundaries: [implementation-patterns.md](references/implementation-patterns.md)
+   - TypeScript, external contracts, codegen, routes, and environment: [typing-contracts.md](references/typing-contracts.md)
    - design, fonts, splash, animation, maps: [design-platform.md](references/design-platform.md)
-   - testing and security: [testing-security.md](references/testing-security.md)
-   - libraries, versions, EAS, fastlane, OTA: [release-dependencies.md](references/release-dependencies.md)
+   - testing, security, and delivery gates: [testing-security.md](references/testing-security.md) and [testing-gates.md](references/testing-gates.md)
+   - libraries and compatibility: [release-dependencies.md](references/release-dependencies.md)
+   - CI, EAS, fastlane, versions, OTA, and native-change detection: [release-operations.md](references/release-operations.md)
+   - ADRs, decision records, module contracts, and review checklists: [templates.md](references/templates.md)
 5. Write `rn-arch.config.json` as the repository-owned architecture contract. Record alternatives and costs in `docs/architecture/`.
 6. Run `npx --yes @armcompany/rn-arch@latest plan .`. Explain warnings and the exact overwrite surface.
 7. Apply only when the user requested implementation: `npx --yes @armcompany/rn-arch@latest apply .`. Never use `--force` without explicit approval for the listed files.
