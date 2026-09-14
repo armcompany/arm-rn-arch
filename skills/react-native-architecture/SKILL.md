@@ -3,6 +3,19 @@ name: react-native-architecture
 description: Design, scaffold, audit, refactor, and govern production React Native or Expo applications. Use for greenfield setup, existing-app architecture, modular monoliths, multi-package apps, mobile platforms, microfrontends, MVVM/MVI/Clean/VIPER decisions, REST or GraphQL integration, state and offline design, design systems, security, testing, dependency baselines, EAS or fastlane releases, OTA updates, or autonomous long-running React Native implementation. Combines an adaptive architecture interview with the deterministic @armcompany/rn-arch CLI.
 ---
 
+```
+@@@@@@   @@@@@@@   @@@@@@@@@@      @@@  @@@   @@@@@@   @@@@@@@   @@@  @@@  @@@@@@@@   @@@@@@    @@@@@@
+@@@@@@@@  @@@@@@@@  @@@@@@@@@@@     @@@  @@@  @@@@@@@@  @@@@@@@@  @@@@ @@@  @@@@@@@@  @@@@@@@   @@@@@@@
+@@!  @@@  @@!  @@@  @@! @@! @@!     @@!  @@@  @@!  @@@  @@!  @@@  @@!@!@@@  @@!       !@@       !@@
+!@!  @!@  !@!  @!@  !@! !@! !@!     !@!  @!@  !@!  @!@  !@!  @!@  !@!!@!@!  !@!       !@!       !@!
+@!@!@!@!  @!@!!@!   @!! !!@ @!@     @!@!@!@!  @!@!@!@!  @!@!!@!   @!@ !!@!  @!!!:!    !!@@!!    !!@@!!
+!!!@!!!!  !!@!@!    !@!   ! !@!     !!!@!!!!  !!!@!!!!  !!@!@!    !@!  !!!  !!!!!:     !!@!!!    !!@!!!
+!!:  !!!  !!: :!!   !!:     !!:     !!:  !!!  !!:  !!!  !!: :!!   !!:  !!!  !!:            !:!       !:!
+:!:  !:!  :!:  !:!  :!:     :!:     :!:  !:!  :!:  !:!  :!:  !:!  :!:  !:!  :!:           !:!       !:!
+::   :::  ::   :::  :::     ::      ::   :::  ::   :::  ::   :::   ::   ::   :: ::::  :::: ::   :::: ::
+ :   : :   :   : :   :      :        :   : :   :   : :   :   : :  ::    :   : :: ::   :: : :    :: : :
+```
+
 # React Native Architecture
 
 Operate as `architectural judgment + persistent contract + deterministic sensors`. Discover before asking, decide before generating, preview before writing, and validate before declaring completion.
