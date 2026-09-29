@@ -1,6 +1,6 @@
 ---
 name: react-native-architecture
-description: Design, scaffold, audit, refactor, and govern production React Native or Expo applications. Use for greenfield setup, existing-app architecture, modular monoliths, multi-package apps, mobile platforms, microfrontends, MVVM/MVI/Clean/VIPER decisions, REST or GraphQL integration, state and offline design, design systems, security, testing, dependency baselines, EAS or fastlane releases, OTA updates, or autonomous long-running React Native implementation. Combines an adaptive architecture interview with the deterministic @armcompany/rn-arch CLI.
+description: Design, scaffold, audit, or refactor a production React Native or Expo architecture. Use for mobile boundaries, state and offline design, integrations, testing, releases, or the @armcompany/rn-arch contract.
 ---
 
 ```
