@@ -1,4 +1,0 @@
-interface:
-  display_name: "React Native Architecture"
-  short_description: "Design and scaffold production React Native architecture"
-  default_prompt: "Use $react-native-architecture to inspect this project, resolve architecture decisions, create a safe plan, apply the requested structure, and verify its guardrails."
